@@ -1,0 +1,17 @@
+{
+    "name": "Side Panels",
+    "manifest_version": 3,
+    "version": "1.0.0.0",
+    "action": {
+        "default_title": "Click to open side panel"
+    },
+    "permissions": [
+        "sidePanel"
+    ],
+    "side_panel": {
+        "default_path": "sidebar.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
